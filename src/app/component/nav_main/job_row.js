@@ -10,7 +10,9 @@ export default class JobRow extends React.Component {
   }
 
   componentWillMount() {
+    // when the group selected or deselected
     ControllerSignal.NavMainGroupSectionSelect.add(this.checkedChangeBySection);
+    //when the group fold
     !this.props.section && ControllerSignal.NavMainGroupFolder.add(this.groupFoder);
   }
 
