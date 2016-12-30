@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.job-row-name {
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.job-row-name ~ span {
+  position: absolute;
+  right: 10px;
+
+}
