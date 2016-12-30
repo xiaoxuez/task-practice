@@ -4,13 +4,58 @@
   box-sizing: border-box;
 }
 
-.job-row-name {
-  margin: 0 20px;
-  font-size: 18px;
+.nav-main {
+  float: left;
+  width:  30%;
+  height: 100%;
+  position: absolute;
+  background-color: #5F7D8C;
+  color: #C5CED2;
 }
 
-.job-row-name ~ span {
+.nav-main ul {
+  list-style: none;
+}
+
+.nav-main ul li {
+  margin: 15px 10px;
+}
+
+.nav-main-title h3 {
+  display: inline;
+
+}
+
+.nav-main-title {
+  position: relative;
+  padding: 14px;
+  color: #FFFFFF;
+}
+
+.title-clear {
   position: absolute;
   right: 10px;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
 
+.nav-main-row input{
+  width: 18px;
+  height: 18px;
+}
+
+.nav-main-row .job-row-name {
+  margin: 0 16px;
+  font-size: 16px;
+}
+
+.nav-main-row .job-row-number {
+  position: absolute;
+  right: 10px;
+  padding: 4px;
+}
+
+.nav-main-row .handler {
+  margin-top: 2px;
+  font-size: 10px
 }
